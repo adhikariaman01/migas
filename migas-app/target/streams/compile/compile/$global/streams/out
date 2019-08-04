@@ -1,0 +1,21 @@
+[debug] Acquiring lock on file E:\gitProject\migas\migas-app\project\target\.sbt-compilation-infos\migas-app-compile\.sbt-idea-lock ...
+[error] E:\gitProject\migas\migas-app\src\main\scala\com.sparkscalacourse.spark\FriendsByAge.scala:3:12: object apache is not a member of package org
+[error] import org.apache.spark._
+[error]            ^
+[error] E:\gitProject\migas\migas-app\src\main\scala\com.sparkscalacourse.spark\FriendsByAge.scala:4:12: object apache is not a member of package org
+[error] import org.apache.spark.SparkContext._
+[error]            ^
+[error] E:\gitProject\migas\migas-app\src\main\scala\com.sparkscalacourse.spark\FriendsByAge.scala:5:12: object apache is not a member of package org
+[error] import org.apache.log4j._
+[error]            ^
+[error] E:\gitProject\migas\migas-app\src\main\scala\com.sparkscalacourse.spark\FriendsByAge.scala:25:5: not found: value Logger
+[error]     Logger.getLogger("org").setLevel(Level.ERROR)
+[error]     ^
+[error] E:\gitProject\migas\migas-app\src\main\scala\com.sparkscalacourse.spark\FriendsByAge.scala:25:38: not found: value Level
+[error]     Logger.getLogger("org").setLevel(Level.ERROR)
+[error]                                      ^
+[error] E:\gitProject\migas\migas-app\src\main\scala\com.sparkscalacourse.spark\FriendsByAge.scala:28:18: not found: type SparkContext
+[error]     val sc = new SparkContext("local[*]", "FriendsByAge")
+[error]                  ^
+[error] 6 errors found
+[debug] Releasing lock on file E:\gitProject\migas\migas-app\project\target\.sbt-compilation-infos\migas-app-compile\.sbt-idea-lock.
